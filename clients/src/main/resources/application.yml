@@ -1,0 +1,16 @@
+server:
+  port: 8181
+  servlet.contextPath: /api
+  error.include-stacktrace: never
+
+corda:
+  rpc:
+    user: user1
+    pass: test
+    host: localhost
+    port: 10004
+
+spring:
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
